@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>albert</Name>
+        <Packager>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>desktop</PartOf>
+        <Summary xml:lang="en">A DE agnostic omnilauncher</Summary>
+        <Description xml:lang="en">Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>albert</Name>
+        <Summary xml:lang="en">A DE agnostic omnilauncher</Summary>
+        <Description xml:lang="en">Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
+</Description>
+        <PartOf>desktop</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/albert</Path>
+            <Path fileType="data">/usr/share/applications/albert.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/albert.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-28</Date>
+            <Version>0.8.11</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Berthault</Name>
+            <Email>justin.berthault@zaclys.net</Email>
+        </Update>
+    </History>
+</PISI>

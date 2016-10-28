@@ -1,0 +1,20 @@
+name       : albert
+version    : 0.8.11
+release    : 1
+source     :
+    - https://github.com/ManuelSchneid3r/albert/archive/v0.8.11.tar.gz : 7a829add4308a59204071a509487571ada1d2f42af34d799d0984e48bab2e5d3
+license    : GPL-3.0
+component  : desktop
+summary    : A DE agnostic omnilauncher
+description: |
+    Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(muparser)
+    - pkgconfig(x11)
+    - pkgconfig(Qt5Svg)
+build      : |
+    %cmake -DCMAKE_INSTALL_PREFIX=/usr
+    %make
+install    : |
+    %make_install

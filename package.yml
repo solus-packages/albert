@@ -1,6 +1,6 @@
 name       : albert
 version    : 0.8.11
-release    : 1
+release    : 2
 source     :
     - https://github.com/ManuelSchneid3r/albert/archive/v0.8.11.tar.gz : 7a829add4308a59204071a509487571ada1d2f42af34d799d0984e48bab2e5d3
 license    : GPL-3.0
@@ -13,8 +13,10 @@ builddeps  :
     - pkgconfig(muparser)
     - pkgconfig(x11)
     - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5X11Extras)
+setup      : |
+    %cmake .
 build      : |
-    %cmake -DCMAKE_INSTALL_PREFIX=/usr
     %make
 install    : |
     %make_install

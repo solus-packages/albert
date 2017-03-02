@@ -2,8 +2,8 @@
     <Source>
         <Name>albert</Name>
         <Packager>
-            <Name>Justin Berthault</Name>
-            <Email>justin.berthault@zaclys.net</Email>
+            <Name>Michael Meinertzhagen</Name>
+            <Email>mmeinert@protonmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
@@ -21,6 +21,7 @@
         <Files>
             <Path fileType="executable">/usr/bin</Path>
             <Path fileType="library">/usr/lib/albert/libalbertcore.so</Path>
+            <Path fileType="library">/usr/lib/albert/libglobalshortcut.so</Path>
             <Path fileType="library">/usr/lib/albert/libxdg.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libapplications.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libcalculator.so</Path>
@@ -38,12 +39,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2016-12-03</Date>
-            <Version>0.9.0</Version>
+        <Update release="4">
+            <Date>2017-03-02</Date>
+            <Version>0.9.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Berthault</Name>
-            <Email>justin.berthault@zaclys.net</Email>
+            <Name>Michael Meinertzhagen</Name>
+            <Email>mmeinert@protonmail.com</Email>
         </Update>
     </History>
 </PISI>

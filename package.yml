@@ -1,8 +1,8 @@
 name       : albert
-version    : 0.11.1
-release    : 9
+version    : 0.11.2
+release    : 10
 source     :
-    - https://github.com/albertlauncher/albert/archive/v0.11.1.tar.gz : d214b73bf154bef59d36a4b128493b5dd9ecc7ba059a606f9b4659b57741f390
+    - https://github.com/albertlauncher/albert/archive/v0.11.2.tar.gz : 991088cef2c4b7dc27b01e703bb7cb13f7f2dac928f0f9c235b2bd52d362a4e7
 license    : GPL-3.0
 component  : desktop
 summary    : A DE agnostic omnilauncher

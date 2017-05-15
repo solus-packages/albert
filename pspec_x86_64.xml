@@ -2,8 +2,8 @@
     <Source>
         <Name>albert</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Matt Critchlow</Name>
+            <Email>matt.critchlow@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
@@ -41,12 +41,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2017-04-18</Date>
-            <Version>0.11.1</Version>
+        <Update release="10">
+            <Date>2017-05-13</Date>
+            <Version>0.11.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Matt Critchlow</Name>
+            <Email>matt.critchlow@gmail.com</Email>
         </Update>
     </History>
 </PISI>

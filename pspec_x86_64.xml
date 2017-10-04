@@ -2,8 +2,8 @@
     <Source>
         <Name>albert</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
@@ -29,24 +29,27 @@
             <Path fileType="library">/usr/lib/albert/plugins/libexternalextensions.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libfiles.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libfirefoxbookmarks.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libhashgenerator.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libkvstore.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libmpris.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libqmlboxmodel.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libssh.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libsystem.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libterminal.so</Path>
-            <Path fileType="library">/usr/lib/albert/plugins/libvirtualbox.so</Path>
             <Path fileType="library">/usr/lib/albert/plugins/libwebsearch.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libwidgetboxmodel.so</Path>
             <Path fileType="data">/usr/share/albert</Path>
             <Path fileType="data">/usr/share/applications/albert.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/albert.svg</Path>
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2017-06-25</Date>
-            <Version>0.12.0</Version>
+        <Update release="12">
+            <Date>2017-10-04</Date>
+            <Version>0.13.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

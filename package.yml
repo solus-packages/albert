@@ -1,8 +1,8 @@
 name       : albert
-version    : 0.13.1
-release    : 12
+version    : 0.14.15
+release    : 13
 source     :
-    - git|https://github.com/albertlauncher/albert.git : v0.13.1
+    - git|https://github.com/albertlauncher/albert.git : v0.14.15
 license    : GPL-3.0
 component  : desktop
 summary    : A DE agnostic omnilauncher
@@ -11,6 +11,7 @@ description: |
 builddeps  :
     - pkgconfig(gl)
     - pkgconfig(muparser)
+    - pkgconfig(python3)
     - pkgconfig(x11)
     - pkgconfig(Qt5Qml)
     - pkgconfig(Qt5Svg)
@@ -21,3 +22,4 @@ build      : |
     %make
 install    : |
     %make_install
+

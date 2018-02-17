@@ -1,8 +1,8 @@
 name       : albert
-version    : 0.14.15
-release    : 13
+version    : 0.13.1
+release    : 14
 source     :
-    - git|https://github.com/albertlauncher/albert.git : v0.14.15
+    - git|https://github.com/albertlauncher/albert.git : v0.13.1
 license    : GPL-3.0
 component  : desktop
 summary    : A DE agnostic omnilauncher

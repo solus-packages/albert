@@ -1,10 +1,12 @@
 name       : albert
 version    : 0.14.15
-release    : 15
+release    : 16
 source     :
     - git|https://github.com/albertlauncher/albert.git : v0.14.15
 license    : GPL-3.0
 component  : desktop
+optimize   :
+    - no-bind-now
 summary    : A DE agnostic omnilauncher
 description: |
     Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
@@ -17,10 +19,8 @@ builddeps  :
     - pkgconfig(Qt5Svg)
     - pkgconfig(Qt5X11Extras)
 setup      : |
-    unset LDFLAGS
     %cmake -DBUILD_VIRTUALBOX=OFF .
 build      : |
-    unset LDFLAGS
     %make
 install    : |
     %make_install

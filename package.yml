@@ -1,12 +1,10 @@
 name       : albert
-version    : 0.14.15
-release    : 16
+version    : 0.14.19
+release    : 17
 source     :
-    - git|https://github.com/albertlauncher/albert.git : v0.14.15
+    - git|https://github.com/albertlauncher/albert.git : v0.14.19
 license    : GPL-3.0
 component  : desktop
-optimize   :
-    - no-bind-now
 summary    : A DE agnostic omnilauncher
 description: |
     Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
@@ -24,4 +22,4 @@ build      : |
     %make
 install    : |
     %make_install
-
+    %qml_cache

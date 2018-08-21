@@ -2,8 +2,8 @@
     <Source>
         <Name>albert</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>desktop</PartOf>
@@ -19,7 +19,7 @@
 </Description>
         <PartOf>desktop</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/albert</Path>
             <Path fileType="library">/usr/lib64/albert/libalbertcore.so</Path>
             <Path fileType="library">/usr/lib64/albert/libglobalshortcut.so</Path>
             <Path fileType="library">/usr/lib64/albert/libxdg.so</Path>
@@ -39,18 +39,136 @@
             <Path fileType="library">/usr/lib64/albert/plugins/libterminal.so</Path>
             <Path fileType="library">/usr/lib64/albert/plugins/libwebsearch.so</Path>
             <Path fileType="library">/usr/lib64/albert/plugins/libwidgetboxmodel.so</Path>
-            <Path fileType="data">/usr/share/albert</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/.git</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/.gitignore</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/AUR/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/AUR/arch.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ApiTest/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ApiTest/plugin.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ArchWiki/ArchWiki.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ArchWiki/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/BaseConverter.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Binance/Binance.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Binance/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Bitfinex/Bitfinex.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Bitfinex/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/CoinMarketCap/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/CoinMarketCap/emblem-money.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/CopyQ.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Currency.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/DateTime.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/GnomeDictionary.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Gnote.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/GoldenDict.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/GoogleTranslate.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Ip.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Kill.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Locate.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/MultiGoogleTranslate.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Npm/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Npm/logo.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Packagist/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Packagist/logo.png</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pacman.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pass.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/bing.wav</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/pomodoro.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Python/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Python/python.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/README.md</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Scrot.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Timer/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Timer/bing.wav</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Timer/time.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Tomboy.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Trash.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Units.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Wikipedia/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Wikipedia/wikipedia.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Zeal.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangoemoji/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangoemoji/dangoemoji.png</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangokao/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangokao/kaoicon.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/jetbrains-projects.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/mathematica_eval.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/tex_to_unicode.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/DesktopListView.qml</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/DesktopListView.qmlc</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/HistoryTextInput.qml</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/HistoryTextInput.qmlc</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/ItemViewDelegate.qml</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/ItemViewDelegate.qmlc</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/MainComponent.qml</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/MainComponent.qmlc</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/Preferences.qml</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/Preferences.qmlc</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/SettingsButton.qml</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/SettingsButton.qmlc</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/fonts/Roboto-Thin.ttf</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/gear.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/metadata.json</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/themes.js</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/ArcTemplate.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/ArcTemplate.sh</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/SpotlightTemplate.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/SpotlightTemplate.sh</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/StandardThemeTemplate.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/StandardThemeTemplate.sh</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Adapta.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Arc Blue.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Arc Dark Blue.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Arc Dark Grey.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Arc Grey.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Bright.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/BrightBlue.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/BrightGreen.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/BrightMagenta.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/BrightMint.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/BrightOrange.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/BrightViolet.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Dark.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/DarkBlue.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/DarkGreen.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/DarkMagenta.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/DarkMint.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/DarkOrange.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/DarkViolet.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Elementary.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Numix Rounded.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Numix.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightBlue.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightCyan.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightGreen.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightMagenta.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightOrange.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightRed.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightViolet.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedBrightYellow.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkBlue.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkCyan.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkGreen.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkMagenta.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkOrange.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkRed.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkViolet.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/SolarizedDarkYellow.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Spotlight Dark.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Spotlight.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Yosemite Dark.qss</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.frontend.widgetboxmodel/themes/Yosemite.qss</Path>
             <Path fileType="data">/usr/share/applications/albert.desktop</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/albert.svg</Path>
         </Files>
     </Package>
     <History>
-        <Update release="17">
-            <Date>2018-05-24</Date>
-            <Version>0.14.19</Version>
+        <Update release="18">
+            <Date>2018-08-21</Date>
+            <Version>0.14.21</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

@@ -1,6 +1,6 @@
 name       : albert
-version    : 0.14.21
-release    : 19
+version    : 0.14.22
+release    : 20
 source     :
     - git|https://github.com/albertlauncher/albert : v0.14.22
 license    : GPL-3.0-or-later

@@ -1,9 +1,9 @@
 name       : albert
 version    : 0.14.21
-release    : 18
+release    : 19
 source     :
-    - git|https://github.com/albertlauncher/albert : v0.14.21
-license    : GPL-3.0
+    - git|https://github.com/albertlauncher/albert : v0.14.22
+license    : GPL-3.0-or-later
 component  : desktop
 summary    : A DE agnostic omnilauncher
 description: |
@@ -16,6 +16,9 @@ builddeps  :
     - pkgconfig(Qt5Qml)
     - pkgconfig(Qt5Svg)
     - pkgconfig(Qt5X11Extras)
+rundeps    :
+    - qt5-graphicaleffects
+    - qt5-quickcontrols
 setup      : |
     %cmake -DBUILD_VIRTUALBOX=OFF .
 build      : |

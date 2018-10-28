@@ -2,10 +2,10 @@
     <Source>
         <Name>albert</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-or-later</License>
         <PartOf>desktop</PartOf>
         <Summary xml:lang="en">A DE agnostic omnilauncher</Summary>
         <Description xml:lang="en">Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
@@ -47,6 +47,7 @@
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ApiTest/plugin.svg</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ArchWiki/ArchWiki.svg</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ArchWiki/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/AtomProjects.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/BaseConverter.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Binance/Binance.svg</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Binance/__init__.py</Path>
@@ -71,6 +72,7 @@
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Packagist/logo.png</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pacman.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pass.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pidgin.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/__init__.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/bing.wav</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/pomodoro.svg</Path>
@@ -86,6 +88,7 @@
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Units.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Wikipedia/__init__.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Wikipedia/wikipedia.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Youtube.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Zeal.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangoemoji/__init__.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangoemoji/dangoemoji.png</Path>
@@ -163,12 +166,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="18">
-            <Date>2018-08-21</Date>
+        <Update release="19">
+            <Date>2018-10-28</Date>
             <Version>0.14.21</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>

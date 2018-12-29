@@ -2,8 +2,8 @@
     <Source>
         <Name>albert</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop</PartOf>
@@ -20,83 +20,86 @@
         <PartOf>desktop</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/albert</Path>
-            <Path fileType="library">/usr/lib64/albert/libalbertcore.so</Path>
-            <Path fileType="library">/usr/lib64/albert/libglobalshortcut.so</Path>
-            <Path fileType="library">/usr/lib64/albert/libxdg.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libapplications.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libcalculator.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libchromebookmarks.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libexternalextensions.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libfiles.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libfirefoxbookmarks.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libhashgenerator.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libmpris.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libpython.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libqmlboxmodel.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libsnippets.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libssh.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libsystem.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libterminal.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libwebsearch.so</Path>
-            <Path fileType="library">/usr/lib64/albert/plugins/libwidgetboxmodel.so</Path>
+            <Path fileType="library">/usr/lib/albert/libalbert.so</Path>
+            <Path fileType="library">/usr/lib/albert/libglobalshortcut.so</Path>
+            <Path fileType="library">/usr/lib/albert/libxdg.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libapplications.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libcalculator.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libchromebookmarks.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libexternalextensions.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libfiles.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libfirefoxbookmarks.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libhashgenerator.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libmpris.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libpython.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libqmlboxmodel.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libsnippets.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libssh.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libsystem.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libterminal.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libwebsearch.so</Path>
+            <Path fileType="library">/usr/lib/albert/plugins/libwidgetboxmodel.so</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/.git</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/.gitignore</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/AUR/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/AUR/arch.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ApiTest/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ApiTest/plugin.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ArchWiki/ArchWiki.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ArchWiki/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/AtomProjects.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/BaseConverter.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Binance/Binance.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Binance/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Bitfinex/Bitfinex.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Bitfinex/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/CoinMarketCap/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/CoinMarketCap/emblem-money.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/CopyQ.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Currency.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/DateTime.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/GnomeDictionary.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Gnote.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/GoldenDict.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/GoogleTranslate.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Ip.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Kill.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Locate.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/MultiGoogleTranslate.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Npm/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Npm/logo.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Packagist/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Packagist/logo.png</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pacman.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pass.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pidgin.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/bing.wav</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Pomodoro/pomodoro.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Python/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Python/python.svg</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/README.md</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Scrot.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Timer/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Timer/bing.wav</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Timer/time.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Tomboy.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Trash.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Units.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Wikipedia/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Wikipedia/wikipedia.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Youtube.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/Zeal.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangoemoji/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangoemoji/dangoemoji.png</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangokao/__init__.py</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dangokao/kaoicon.svg</Path>
-            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/jetbrains-projects.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/api_test/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/api_test/plugin.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/arch_wiki/ArchWiki.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/arch_wiki/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/atom_projects.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/aur/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/aur/arch.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/base_converter.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/binance/Binance.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/binance/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/bitfinex/Bitfinex.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/bitfinex/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/coinmarketcap/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/coinmarketcap/emblem-money.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/copyq.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/currency_converter.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dango_emoji/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dango_emoji/dangoemoji.png</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dango_kao/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/dango_kao/kaoicon.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/datetime.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/fortune.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/gnome_dictionary.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/gnote.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/goldendict.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/google_translate.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/ip.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/jetbrains_projects/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/jetbrains_projects/jetbrains.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/kill.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/locate.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/mathematica_eval.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/multi_google_translate.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/npm/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/npm/logo.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/packagist/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/packagist/logo.png</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/pacman.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/pass.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/pidgin.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/pomodoro/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/pomodoro/bing.wav</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/pomodoro/pomodoro.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/python_eval/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/python_eval/python.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/scrot.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/tex_to_unicode.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/timer/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/timer/bing.wav</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/timer/time.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/tomboy.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/trash.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/units.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/virtualbox.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/wikipedia/__init__.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/wikipedia/wikipedia.svg</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/window_switcher.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/youtube.py</Path>
+            <Path fileType="data">/usr/share/albert/org.albert.extension.python/modules/zeal.py</Path>
             <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/DesktopListView.qml</Path>
             <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/DesktopListView.qmlc</Path>
             <Path fileType="data">/usr/share/albert/org.albert.frontend.qmlboxmodel/styles/BoxModel/HistoryTextInput.qml</Path>
@@ -166,12 +169,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="20">
-            <Date>2018-10-28</Date>
-            <Version>0.14.22</Version>
+        <Update release="21">
+            <Date>2018-12-29</Date>
+            <Version>0.16.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>

@@ -1,6 +1,6 @@
 name       : albert
 version    : 0.16.1
-release    : 23
+release    : 24
 source     :
     - git|https://github.com/albertlauncher/albert : v0.16.1
 license    : GPL-3.0-or-later
@@ -12,11 +12,11 @@ builddeps  :
     - pkgconfig(gl)
     - pkgconfig(muparser)
     - pkgconfig(python3)
-    - pkgconfig(x11)
     - pkgconfig(Qt5Charts)
     - pkgconfig(Qt5Qml)
     - pkgconfig(Qt5Svg)
     - pkgconfig(Qt5X11Extras)
+    - pkgconfig(xext)
 rundeps    :
     - qt5-graphicaleffects
     - qt5-quickcontrols

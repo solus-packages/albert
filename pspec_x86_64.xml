@@ -168,7 +168,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="24">
+        <Update release="25">
             <Date>2020-06-06</Date>
             <Version>0.16.1</Version>
             <Comment>Packaging update</Comment>

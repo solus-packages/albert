@@ -1,6 +1,6 @@
 name       : albert
 version    : 0.16.1
-release    : 24
+release    : 25
 source     :
     - git|https://github.com/albertlauncher/albert : v0.16.1
 license    : GPL-3.0-or-later
@@ -9,7 +9,6 @@ summary    : A DE agnostic omnilauncher
 description: |
     Access everything with virtually zero effort. Run applications, open files or their paths, open bookmarks in your browser, search the web, calculate things and a lot more ...
 builddeps  :
-    - pkgconfig(gl)
     - pkgconfig(muparser)
     - pkgconfig(python3)
     - pkgconfig(Qt5Charts)
